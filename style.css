@@ -1,0 +1,25 @@
+html { font-size: 22px; }
+body { padding: 1rem; }
+
+.card {
+  /* background-color: dodgerblue; */
+  /* color: white; */
+  padding: 1rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.card-text{
+  color:white;
+  mix-blend-mode: difference;
+}
